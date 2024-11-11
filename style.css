@@ -1,5 +1,13 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: chartreuse;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .one {
@@ -10,8 +18,26 @@ body {
   text-align: center;
 }
 
-.bullets {
+.recipe-link {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 25px;
   color: black;
+  font-weight: bold;
+  font-size: 1.2em;
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.recipe-link:hover {
+  color: aliceblue;
+}
+
+.witch-image {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  height: auto;
 }
